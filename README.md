@@ -14,7 +14,7 @@ This repository provides an example of how to use Ansible to configure OSPF on C
 ## Topology Diagram
 The example is based on the following topology:
 
-![image](https://user-images.githubusercontent.com/44901689/235541572-77556003-5606-4223-be42-4c1f8326b1df.png)
+![image](https://user-images.githubusercontent.com/44901689/235543164-61ee0a68-1626-4604-9dd7-07e40067a763.png)
 
 ## Variables Configuration
 The vars.yml file contains the necessary variables to build the OSPF configurations for the routers in the topology. These include IP addresses, area information, router IDs, and interface statuses.
