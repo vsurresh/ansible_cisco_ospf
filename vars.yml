@@ -40,8 +40,8 @@ router_05:
 router_06:
   router_id: "6.6.6.6"
   interfaces:
-    - { interface: "GigabitEthernet0/3", desc: "R2", ip: "10.100.26.2", mask: "255.255.255.0", area: 1, passive: false, enabled: true }
-    - { interface: "GigabitEthernet0/4", desc: "R4", ip: "10.100.46.2", mask: "255.255.255.0", area: 1, passive: false, enabled: true }
+    - { interface: "GigabitEthernet0/3", desc: "R2", ip: "10.100.26.2", mask: "255.255.255.0", area: 2, passive: false, enabled: true }
+    - { interface: "GigabitEthernet0/4", desc: "R4", ip: "10.100.46.2", mask: "255.255.255.0", area: 2, passive: false, enabled: true }
     - { interface: "Loopback0", desc: "Router ID", ip: "6.6.6.6", mask: "255.255.255.255", area: 0, passive: true, enabled: true }
 
 # Set variables for the current host
